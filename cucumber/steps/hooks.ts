@@ -1,13 +1,15 @@
+// steps/hooks.ts
 import { Before, After } from '@cucumber/cucumber';
-import { chromium } from '@playwright/test';
-import { PlaywrightWorld } from './world';
+import { launch } from '../helpers/playwrightHelper.ts'; // adjust path
+import { PlaywrightWorld } from './world.ts';
 
 Before(async function (this: PlaywrightWorld) {
-  this.browser = await chromium.launch();
-  this.page = await this.browser.newPage();
+  const { browser, page } = await launch();
+  this.browser = browser;
+  this.page = page;
 });
 
 After(async function (this: PlaywrightWorld) {
-  await this.page.close();
-  await this.browser.close();
+  if (this.page) await this.page.close();
+  if (this.browser) await this.browser.close();
 });
