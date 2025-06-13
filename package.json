@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test"
+    "test": "playwright test",
+    "cucumber": "cucumber-js --require-module ts-node/register --require cucumber/steps/**/*.ts cucumber/features"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,8 @@
     "@types/node": "^24.0.0",
     "eslint": "^9.28.0",
     "globals": "^16.2.0",
-    "typescript-eslint": "^8.34.0"
+    "typescript-eslint": "^8.34.0",
+    "@cucumber/cucumber": "^9.2.1",
+    "ts-node": "^10.9.2"
   }
 }
