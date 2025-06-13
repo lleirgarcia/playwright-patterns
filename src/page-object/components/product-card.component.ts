@@ -5,14 +5,14 @@ export class ProductCard {
   private readonly productName: Locator;
   private readonly price: Locator;
   private readonly addToCartButton: Locator;
-  private readonly removeToCartButton: Locator;
+  private readonly removeFromCartButton: Locator;
 
   constructor(cardLocator: Locator) {
     this.cardLocator = cardLocator;
     this.productName = cardLocator.locator('[data-test="inventory-item-name"]');
     this.price = cardLocator.locator('[data-test="inventory-item-price"]');
     this.addToCartButton = cardLocator.locator('[data-test*="add-to-cart"]');
-    this.removeToCartButton = cardLocator.locator('[data-test*="remove"]');
+    this.removeFromCartButton = cardLocator.locator('[data-test*="remove"]');
 }
 
   async getNameProduct(): Promise<string | null> {
@@ -28,6 +28,6 @@ export class ProductCard {
   }
 
   async removeFromCart(): Promise<void> {
-    await this.removeToCartButton.click(); // Assuming the button toggles between add and remove
+    await this.removeFromCartButton.click(); // Assuming the button toggles between add and remove
   }
 }
