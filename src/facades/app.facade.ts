@@ -44,6 +44,10 @@ export class AppFacade {
 
   async getFirstProductTitle(): Promise<string | null> {
     const cards = await this.inventoryPage.getAllProductCards();
+    if (cards.length === 0) {
+      console.error('No products found');
+      return null;
+    }
     return await cards[0].getNameProduct();
   }
 
