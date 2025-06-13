@@ -1,0 +1,22 @@
+# Playwright
+node_modules/
+test-results/
+playwright-report/
+playwright/.cache/
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Coverage and build artifacts
+coverage/
+dist/
+build/
+
+# Environment files
+.env
+.env.*
