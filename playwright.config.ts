@@ -25,7 +25,7 @@ export default defineConfig({
   workers: process.env.CI ? 1 : 1,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
    reporter: [
-    ['list'],
+    ['html'],
     ['json', {  outputFile: 'test-results.json' }]
   ],
   timeout: 10 * 1000, // Set a global timeout of 10 seconds for each test
