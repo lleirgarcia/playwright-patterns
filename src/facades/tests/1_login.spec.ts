@@ -22,7 +22,7 @@ test.describe('Login Page', () => {
 
     test('User login with incorrect credentials shows error', async ({ page }) => {
          const app = new AppFacade(page);
-        await app.loginAsUser("wrong_usernam", "wrond_password");
+        await app.loginAsUser('wrong_username', 'wrong_password');
         await expect(await app.getLoginErrorMessage()).toBe(LOGIN_ERROR);
         await expect(page).toHaveURL(BASE_URL);
     });
