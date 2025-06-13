@@ -4,7 +4,7 @@ import { chromium } from 'playwright';
 
 export async function launch() {
 const browser = await chromium.launch({
-    headless: config.use?.headless ?? true, 
+    headless: config.use?.headless ?? false, 
     ...config.use?.launchOptions,
   });  const context = await browser.newContext({
     baseURL: config.use?.baseURL,
