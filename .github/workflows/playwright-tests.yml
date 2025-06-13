@@ -69,7 +69,7 @@ jobs:
         run: npx playwright test
 
       - name: Generate Playwright HTML report
-        run: npx playwright show-report --output=test-reports --quiet
+        run: npx playwright show-report --output=test-reports
 
       - name: Upload Playwright HTML report
         if: always()
