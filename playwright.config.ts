@@ -28,7 +28,7 @@ export default defineConfig({
     ['list'],
     ['json', {  outputFile: 'test-results.json' }]
   ],
-  timeout: 10 * 1000, // Set a global timeout of 30 seconds for each test
+  timeout: 10 * 1000, // Set a global timeout of 10 seconds for each test
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */

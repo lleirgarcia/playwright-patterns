@@ -17,6 +17,8 @@ test.describe('Login Page', () => {
         const app = new AppFacade(page);
         await app.loginAsUser(credentials.username, credentials.password);
         await expect(page).toHaveURL(new RegExp(INVENTORY_URL));
+        await app.addProductToCartByName('Sauce Labs Backpack');
+        await expect(await app.getCartCount()).toBe(1);
     });
 
 
