@@ -68,12 +68,9 @@ jobs:
       - name: Run tests
         run: npx playwright test
 
-      - name: Generate Playwright HTML report
-        run: npx playwright show-report --output=test-reports
-
-      - name: Upload Playwright HTML report
-        if: always()
-        uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
         with:
-          name: test-reports
-          path: test-reports
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 30
