@@ -76,7 +76,7 @@ jobs:
           path: cucumber-reports/cucumber-report.html
 
       - name: Deploy Cucumber Report to GitHub Pages
-        if: success()
+        if: always()
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
