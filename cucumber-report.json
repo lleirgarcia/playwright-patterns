@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2875597794
+              "duration": 2686784718
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 616183084
+              "duration": 721275915
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 72188496
+              "duration": 89596834
             }
           },
           {
@@ -52,8 +52,9 @@
               "location": "cucumber/steps/inventory.steps.ts:31"
             },
             "result": {
-              "status": "passed",
-              "duration": 15277175
+              "status": "failed",
+              "duration": 21047087,
+              "error_message": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 67\nReceived: 1\n    at Proxy.<anonymous> (/home/runner/work/playwright-patterns/playwright-patterns/node_modules/playwright/lib/matchers/expect.js:221:24)\n    at PlaywrightWorld.<anonymous> (/home/runner/work/playwright-patterns/playwright-patterns/cucumber/steps/inventory.steps.ts:32:46)"
             }
           },
           {
@@ -61,7 +62,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 254171362
+              "duration": 112436451
             }
           }
         ],
@@ -80,7 +81,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2644786272
+              "duration": 2671164928
             }
           },
           {
@@ -93,7 +94,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 617208569
+              "duration": 736332518
             }
           },
           {
@@ -106,7 +107,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 71855000
+              "duration": 70264747
             }
           },
           {
@@ -119,7 +120,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7693062
+              "duration": 10025384
             }
           },
           {
@@ -127,7 +128,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 268548384
+              "duration": 136791230
             }
           }
         ],
@@ -146,7 +147,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 159597190
+              "duration": 161090900
             }
           },
           {
@@ -159,7 +160,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 390377226
+              "duration": 414166816
             }
           },
           {
@@ -172,7 +173,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 57515867
+              "duration": 72065912
             }
           },
           {
@@ -185,7 +186,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 48147051
+              "duration": 50865252
             }
           },
           {
@@ -197,8 +198,9 @@
               "location": "cucumber/steps/inventory.steps.ts:31"
             },
             "result": {
-              "status": "passed",
-              "duration": 501536231
+              "status": "failed",
+              "duration": 502055835,
+              "error_message": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 67\nReceived: 0\n    at Proxy.<anonymous> (/home/runner/work/playwright-patterns/playwright-patterns/node_modules/playwright/lib/matchers/expect.js:221:24)\n    at PlaywrightWorld.<anonymous> (/home/runner/work/playwright-patterns/playwright-patterns/cucumber/steps/inventory.steps.ts:32:46)"
             }
           },
           {
@@ -206,7 +208,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 33303155
+              "duration": 34856590
             }
           }
         ],
@@ -236,7 +238,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 155951792
+              "duration": 153310035
             }
           },
           {
@@ -249,7 +251,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 171087203
+              "duration": 228085804
             }
           },
           {
@@ -262,7 +264,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 172824327
+              "duration": 99705740
             }
           },
           {
@@ -275,7 +277,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22877741
+              "duration": 41194064
             }
           },
           {
@@ -283,7 +285,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 67815784
+              "duration": 68368941
             }
           }
         ],
@@ -302,7 +304,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 124297567
+              "duration": 159217465
             }
           },
           {
@@ -315,7 +317,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 150743064
+              "duration": 222987497
             }
           },
           {
@@ -328,7 +330,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 125195044
+              "duration": 131861498
             }
           },
           {
@@ -341,7 +343,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6941474
+              "duration": 8432135
             }
           },
           {
@@ -349,7 +351,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 28701745
+              "duration": 29493588
             }
           }
         ],
