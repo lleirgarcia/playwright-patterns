@@ -87,8 +87,9 @@ jobs:
         if: always()
         run: |
           echo "🧪 View the Cucumber HTML report at:"
-          echo "👉 https://lleirgarcia.github.io/playwright-patterns/cucumber-report.html"
-
+          OWNER=$(echo "${{ github.repository }}" | cut -d'/' -f1)
+          REPO=$(echo "${{ github.repository }}" | cut -d'/' -f2)
+          echo "👉 https://${OWNER}.github.io/${REPO}/cucumber-report.html"
 
   playwright-tests:
     name: Playwright Tests
