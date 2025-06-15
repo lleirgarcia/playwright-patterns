@@ -1,0 +1,367 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "inventory;user-can-add-an-item-to-the-cart",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "User can add an item to the cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2875597794
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am logged in as standard user",
+            "match": {
+              "location": "cucumber/steps/inventory.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 616183084
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I add \"Sauce Labs Backpack\" to the cart",
+            "match": {
+              "location": "cucumber/steps/inventory.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72188496
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the cart count should be 1",
+            "match": {
+              "location": "cucumber/steps/inventory.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15277175
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 254171362
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "inventory;user-can-navigate-to-the-cart",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "User can navigate to the cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2644786272
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am logged in as standard user",
+            "match": {
+              "location": "cucumber/steps/inventory.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 617208569
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I navigate to the cart",
+            "match": {
+              "location": "cucumber/steps/inventory.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71855000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the URL should contain \"cart\"",
+            "match": {
+              "location": "cucumber/steps/inventory.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7693062
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 268548384
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "inventory;user-can-remove-an-item-from-the-cart",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "User can remove an item from the cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 159597190
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am logged in as standard user",
+            "match": {
+              "location": "cucumber/steps/inventory.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 390377226
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I add \"Sauce Labs Backpack\" to the cart",
+            "match": {
+              "location": "cucumber/steps/inventory.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57515867
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I remove the item from the cart",
+            "match": {
+              "location": "cucumber/steps/inventory.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48147051
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the cart count should be 0",
+            "match": {
+              "location": "cucumber/steps/inventory.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 501536231
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 33303155
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "inventory",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Inventory",
+    "tags": [],
+    "uri": "cucumber/features/inventory.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;user-login-successful",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User login successful",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 155951792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the login page",
+            "match": {
+              "location": "cucumber/steps/login.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 171087203
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login as standard user",
+            "match": {
+              "location": "cucumber/steps/login.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 172824327
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see the inventory page",
+            "match": {
+              "location": "cucumber/steps/login.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22877741
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 67815784
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;user-login-with-incorrect-credentials-shows-error",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User login with incorrect credentials shows error",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 124297567
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the login page",
+            "match": {
+              "location": "cucumber/steps/login.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150743064
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I login with invalid credentials",
+            "match": {
+              "location": "cucumber/steps/login.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 125195044
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see login error",
+            "match": {
+              "location": "cucumber/steps/login.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6941474
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 28701745
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "cucumber/features/login.feature"
+  }
+]
