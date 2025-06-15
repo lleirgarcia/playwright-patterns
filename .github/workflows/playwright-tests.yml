@@ -68,12 +68,21 @@ jobs:
       - name: Run Cucumber tests
         run: npm run cucumber
 
-      - name: Upload Cucumber HTML report
+      - name: Upload Cucumber HTML report as artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: cucumber-html-report
           path: cucumber-reports/cucumber-report.html
+
+      - name: Deploy Cucumber Report to GitHub Pages
+        if: success()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: cucumber-reports
+          publish_branch: gh-pages
+
 
   playwright-tests:
     name: Playwright Tests
