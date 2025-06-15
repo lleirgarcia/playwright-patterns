@@ -82,6 +82,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: cucumber-reports
           publish_branch: gh-pages
+        
+      - name: Print Cucumber Report URL
+        if: always()
+        run: |
+          echo "🧪 View the Cucumber HTML report at:"
+          echo "👉 https://lleirgarcia.github.io/playwright-patterns/cucumber-report.html"
 
 
   playwright-tests:

@@ -29,7 +29,7 @@ When('I remove the item from the cart', async function (this: PlaywrightWorld) {
 });
 
 Then('the cart count should be {int}', async function (this: PlaywrightWorld, count: number) {
-  expect(await inventoryPage.getCartCount()).toBe(67);
+  expect(await inventoryPage.getCartCount()).toBe(count);
 });
 
 Then('the URL should contain {string}', async function (this: PlaywrightWorld, part: string) {
