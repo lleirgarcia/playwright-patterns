@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2686784718
+              "duration": 1753062583
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 721275915
+              "duration": 602626210
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 89596834
+              "duration": 58820865
             }
           },
           {
@@ -52,9 +52,8 @@
               "location": "cucumber/steps/inventory.steps.ts:31"
             },
             "result": {
-              "status": "failed",
-              "duration": 21047087,
-              "error_message": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 67\nReceived: 1\n    at Proxy.<anonymous> (/home/runner/work/playwright-patterns/playwright-patterns/node_modules/playwright/lib/matchers/expect.js:221:24)\n    at PlaywrightWorld.<anonymous> (/home/runner/work/playwright-patterns/playwright-patterns/cucumber/steps/inventory.steps.ts:32:46)"
+              "status": "passed",
+              "duration": 6128852
             }
           },
           {
@@ -62,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 112436451
+              "duration": 72020754
             }
           }
         ],
@@ -81,7 +80,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2671164928
+              "duration": 1727898549
             }
           },
           {
@@ -94,7 +93,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 736332518
+              "duration": 562975934
             }
           },
           {
@@ -107,7 +106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 70264747
+              "duration": 72240966
             }
           },
           {
@@ -120,7 +119,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10025384
+              "duration": 7141768
             }
           },
           {
@@ -128,7 +127,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 136791230
+              "duration": 98418906
             }
           }
         ],
@@ -147,7 +146,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 161090900
+              "duration": 171421032
             }
           },
           {
@@ -160,7 +159,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 414166816
+              "duration": 370718847
             }
           },
           {
@@ -173,7 +172,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 72065912
+              "duration": 86852275
             }
           },
           {
@@ -186,7 +185,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 50865252
+              "duration": 39706273
             }
           },
           {
@@ -198,9 +197,8 @@
               "location": "cucumber/steps/inventory.steps.ts:31"
             },
             "result": {
-              "status": "failed",
-              "duration": 502055835,
-              "error_message": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 67\nReceived: 0\n    at Proxy.<anonymous> (/home/runner/work/playwright-patterns/playwright-patterns/node_modules/playwright/lib/matchers/expect.js:221:24)\n    at PlaywrightWorld.<anonymous> (/home/runner/work/playwright-patterns/playwright-patterns/cucumber/steps/inventory.steps.ts:32:46)"
+              "status": "passed",
+              "duration": 503320052
             }
           },
           {
@@ -208,7 +206,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 34856590
+              "duration": 35901967
             }
           }
         ],
@@ -238,7 +236,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 153310035
+              "duration": 166217698
             }
           },
           {
@@ -251,7 +249,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 228085804
+              "duration": 182484360
             }
           },
           {
@@ -264,7 +262,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 99705740
+              "duration": 207789295
             }
           },
           {
@@ -277,7 +275,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 41194064
+              "duration": 40392684
             }
           },
           {
@@ -285,7 +283,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 68368941
+              "duration": 52567649
             }
           }
         ],
@@ -304,7 +302,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 159217465
+              "duration": 125295016
             }
           },
           {
@@ -317,7 +315,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 222987497
+              "duration": 158635654
             }
           },
           {
@@ -330,7 +328,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 131861498
+              "duration": 101517797
             }
           },
           {
@@ -343,7 +341,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8432135
+              "duration": 8901076
             }
           },
           {
@@ -351,7 +349,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 29493588
+              "duration": 30176030
             }
           }
         ],
