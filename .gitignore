@@ -4,6 +4,10 @@ test-results/
 playwright-report/
 playwright/.cache/
 
+# Cucumber
+
+cucumber-reports/
+
 # OS and editor files
 .DS_Store
 .vscode/

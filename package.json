@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "playwright test",
-    "cucumber": "cucumber-js --parallel 2 --require-module ts-node/register --require cucumber/steps/**/*.ts cucumber/features"
+    "cucumber": "cucumber-js --parallel 2"
   },
   "keywords": [],
   "author": "",
