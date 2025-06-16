@@ -5,8 +5,12 @@ playwright-report/
 playwright/.cache/
 
 # Cucumber
-
 cucumber-reports/
+
+# Allure reports
+allure-results/
+allure-report/
+allure-reports/
 
 # OS and editor files
 .DS_Store
